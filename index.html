@@ -1,7 +1,49 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <style>
+            html {
+                height: 100%;
+                width: 100%;
+            }
+            body {
+                background-color: #000;
+                background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/4b/Candle.jpg');
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                height: 100%;
+                width: 100%;
+            }
+            form {
+                padding-top: 1em;
+                text-align: center;
+            }
+            input[type=text] {
+                background: #ffd;
+                border: 1px solid #eec;
+                border-radius: 20px;
+                font-size: larger;
+                padding: 0.5em;
+            }
+            input[type=text]:hover {
+                background: #fff;
+            }
+            input[type=submit] {
+                background: #e06711;
+                border: 1px solid #c50;
+                border-radius: 20px;
+                color: #fff;
+                font-size: larger;
+                padding: 0.5em 1.5em;
+                margin-left: 0.25em;
+            }
+            input[type=submit]:hover {
+                background: #b53e0a;
+            }
+        </style>
+    </head>
     <body>
-        <h1>Birthday blowout!</h1>
         <form action="https://smee.io/UCClXEjozD6jxK" method="post">
             <input type="text" name="key">
             <input type="submit" value="Blow!">
